@@ -1,0 +1,11 @@
+C:\Users\gilia\AppData\Local\Programs\Python\Python313\python.exe "C:/PyCharm Community Edition 2023.1.3/plugins/python-ce/helpers/pydev/pydevconsole.py" --mode=client --host=127.0.0.1 --port=59246 
+Traceback (most recent call last):
+  File "C:\PyCharm Community Edition 2023.1.3\plugins\python-ce\helpers\pydev\pydevconsole.py", line 33, in <module>
+    from _pydev_bundle.pydev_console_utils import BaseInterpreterInterface
+  File "C:\PyCharm Community Edition 2023.1.3\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_console_utils.py", line 14, in <module>
+    from _pydevd_bundle.pydevd_comm import InternalDataViewerAction
+  File "C:\PyCharm Community Edition 2023.1.3\plugins\python-ce\helpers\pydev\_pydevd_bundle\pydevd_comm.py", line 105, in <module>
+    from _pydev_bundle.pydev_is_thread_alive import is_thread_alive
+ImportError: cannot import name 'is_thread_alive' from '_pydev_bundle.pydev_is_thread_alive' (C:\PyCharm Community Edition 2023.1.3\plugins\python-ce\helpers\pydev\_pydev_bundle\pydev_is_thread_alive.py). Did you mean: 'pydev_is_thread_alive'?
+Couldn't connect to console process.
+Process finished with exit code 1
